@@ -6,33 +6,20 @@
     <title>Márcia Mendes - Manicure</title>
     <style>
         * { margin: 0; padding: 0; }
-        body, html { height: 100%; }
-        body {
+        body, html { height: 100%; background: #000; }
+        .portal {
+            display: block;
+            width: 100%;
+            height: 100%;
             background: #000 url('https://i.postimg.cc/y6J2ftZ3/marcia.png') no-repeat center center;
-            background-size: cover;
-            display: flex;
-            align-items: flex-end;
-            justify-content: center;
-            font-family: Arial, sans-serif;
-        }
-        .zap {
-            background: #25D366;
-            color: white;
-            padding: 18px 35px;
-            border-radius: 50px;
-            text-decoration: none;
-            font-size: 18px;
-            font-weight: 900;
-            margin-bottom: 8%;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.6);
-            border: 3px solid #fff;
-            text-align: center;
+            background-size: contain;
         }
     </style>
 </head>
 <body>
-    <a href="https://wa.me/5585991720868?text=Oi%20Márcia%2C%20vi%20seu%20Portal.%20Quero%20marcar%20horário" class="zap">
-        AGENDAR COM A MÁRCIA NO WHATSAPP
+    <a href="https://wa.me/5585991720868?text=Oi%20Márcia%2C%20vi%20seu%20Portal.%20Quero%20marcar%20horário" 
+       class="portal" 
+       aria-label="Agendar com Márcia Mendes no WhatsApp">
     </a>
 </body>
 </html>
